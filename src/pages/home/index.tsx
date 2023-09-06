@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -35,9 +34,8 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Como Desenvolvedor Full Stack participei de diversos projetos
+              resolvendo problemas de alto nível e desenvolvendo habilidades
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -48,6 +46,55 @@ export const Home = (): JSX.Element => {
               </Button>
             </HeaderButtonsArea>
           </HeaderContent>
+          <Text type="body2" color="grey3">
+            • Além da vivência como atleta de handebol e futebol durante 12
+            anos, atuei como treinador do time feminino de handebol da AAASE
+            (Associação Atlética Acadêmica de Saúde e Esporte - UNICAMP) durante
+            1 ano. Além de morar em uma república por 5 anos, tive experiências,
+            responsabilidades e oportunidades incríveis, além de receber
+            intercambistas de todo o mundo, todo ano, tendo contato com diversos
+            idiomas.
+          </Text>
+          <Text type="body2" color="grey3">
+            • Experiência como diretor de parceria pela ARULI (Associação das
+            Repúblicas da Unicamp de Limeira), por 1 ano.
+          </Text>
+          <Text type="body2" color="grey3">
+            • Experiência como diretor de eventos, universitários e sociais,
+            pela ARULI (Associação das Repúblicas da Unicamp de Limeira), por 3
+            anos.
+          </Text>
+          <Text type="body2" color="grey3">
+            • Cozinheiro formado, passando por grandes franquias como Coco
+            Bambu, mais tarde chegando a comandar uma hamburgueria da minha
+            cidade por 1 ano.
+          </Text>
+          <Text type="body2" color="grey3">
+            • Atual ocupação como Desenvolvedor Full Stack, Desenvolvedor
+            Backend ou Desenvolvedor Frontend.
+          </Text>
+          <Text type="body2" color="grey3">
+            • Conhecimentos e habilidades em tecnologia:
+          </Text>
+          <Text type="body2" color="grey3">
+            - Boas práticas de desenvolvimento web
+          </Text>
+          <Text type="body2" color="grey3">
+            - Utilização de Metodologias Ágeis (Scrum, Kanban)
+          </Text>
+          <Text type="body2" color="grey3">
+            - Experiência com diversas stacks: HTML, CSS, Componentização,
+            Noções de UX, JavaScript ES6, React.JS, Hooks, Redux, Typescript,
+            Next.JS, Node.JS, Express.JS, Controle de versão Git, Python,
+            Django, TypeORM e Migrations, TDD com Jest, BDD com Cucumber, Amazon
+            AWS, Programação Orientada a Objetos.
+          </Text>
+          <Text type="body2" color="grey3">
+            - Banco de dados: SQL, PostgreSQL e MongoDB.
+          </Text>
+          <Text type="body2" color="grey3">
+            • Idiomas: Inglês intermediário e Espanhol intermediário.
+          </Text>
         </Container>
       </Header>
       <StackSection id="tecnologias">

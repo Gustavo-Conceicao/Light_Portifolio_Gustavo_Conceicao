@@ -21,6 +21,7 @@ export const HeaderContent = styled("div", {
   display: "flex",
   flexDirection: "column",
   gap: "$2",
+  paddingBottom: "25px",
 });
 
 export const HeaderButtonsArea = styled(Flex, {
@@ -31,6 +32,26 @@ export const HeaderButtonsArea = styled(Flex, {
       width: "100%",
     },
   },
+});
+
+export const ContainerFlag = styled("a", {
+  width: "30px",
+  height: "30px",
+  textAlign: "center",
+  alignItems: "center",
+  marginTop: "12px",
+
+  "& span": {
+    display: "flex",
+    alignItems: "center",
+    gap: "8px",
+  },
+});
+
+export const FlagUK = styled("img", {
+  maxWidth: "30px",
+  maxHeight: "30px",
+  borderRadius: "4px",
 });
 
 export const StackSection = styled("section", {

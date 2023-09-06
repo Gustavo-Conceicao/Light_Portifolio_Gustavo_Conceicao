@@ -15,6 +15,7 @@ import { FaGithub, FaLinkedinIn, FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { Button } from "@/styles/Buttons";
 import { Container } from "@/styles/Global";
+import { ContainerFlag, FlagUK } from "@/pages/home/style";
 
 export interface MenuButtonOpen {
   open: Boolean;
@@ -44,7 +45,10 @@ export const NavBar = (): JSX.Element => {
               width={"48px"}
               height={"48px"}
             />
-            <LogoTipoText>{userData.nameUser}</LogoTipoText>
+            <LogoTipoText>{userData.nameUser} </LogoTipoText>
+            <ContainerFlag href="https://dark-phi.vercel.app/">
+              <FlagUK src="src/public/flag_UK.png" />
+            </ContainerFlag>
           </LogoTipo>
           {isWide && (
             <Button
